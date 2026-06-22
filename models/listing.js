@@ -13,18 +13,18 @@ const listingSchema = new Schema({
     image: {
         url: String,
         filename: String,
-       /*  filename: {
-            type: String,
-            default: "listingimage",
-
-        },
-
-        url: {
-            type: String,
-            default: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=800",
-        }
-
- */
+        /*  filename: {
+             type: String,
+             default: "listingimage",
+ 
+         },
+ 
+         url: {
+             type: String,
+             default: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=800",
+         }
+ 
+  */
     },
     price: Number,
     location: String,
@@ -40,21 +40,21 @@ const listingSchema = new Schema({
         ref: "User",
     },
     geometry: {
-    type: {
-      type: String, // Don't do `{ location: { type: String } }`
-      enum: ['Point'], // 'location.type' must be 'Point'
-      required: true
-    },
-    coordinates: {
-      type: [Number],
-      required: true
+        type: {
+            type: String, // Don't do `{ location: { type: String } }`
+            enum: ['Point'], // 'location.type' must be 'Point'
+            /* required: true */
+        },
+        coordinates: {
+            type: [Number],
+            /*  required: true */
+        }
     }
-  }
 });
 
-listingSchema.post("findOneAndDelete", async (listing) =>{
-    if(listing){
-        await Review.deleteMany({ _id: { $in: listing.reviews}});
+listingSchema.post("findOneAndDelete", async (listing) => {
+    if (listing) {
+        await Review.deleteMany({ _id: { $in: listing.reviews } });
     }
 })
 
