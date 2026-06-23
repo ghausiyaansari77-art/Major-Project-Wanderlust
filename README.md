@@ -127,23 +127,23 @@ The application is deployed using:
 
 ## Home Page
 
-(./Screenshots/home.png)
+![Home Page](./Screenshots/home.png)
 
 ## Listing Details Page
 
-(./Screenshots/Listingdetails.png)
+![Listing details](./Screenshots/Listingdetails.png)
 
 ## Map
-(./Screenshots/map.png)
+![Map](./Screenshots/map.png)
 
 ## Add New Listing
 
-(./Screenshots/Newlisting.png)
+![New listing](./Screenshots/Newlisting.png)
 
 ## Login & Signup
 
-(./Screenshots/Login.png)
-(./Screenshots/Signup.png)
+![Login](./Screenshots/Login.png)
+![Signup](./Screenshots/Signup.png)
 
 ---
 
