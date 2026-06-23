@@ -2,7 +2,9 @@
 
 A full-stack Airbnb-inspired travel listing web application where users can explore destinations, create listings, upload images, leave reviews, and manage their own properties.
 
-🔗 **Live Demo:** https://major-project-wanderlust-5nuw.onrender.com
+🔗 **Live Demo:** [Click here to Open Project](https://major-project-wanderlust-5nuw.onrender.com)
+
+
 
 🔗 **GitHub Repository:** https://github.com/ghausiyaansari77-art/Major-Project-Wanderlust
 
@@ -167,5 +169,5 @@ The application is deployed using:
 
 **Aaysha Ansari**
 
-* GitHub: https://github.com/yourusername
-* LinkedIn: https://linkedin.com/in/yourprofile
+* GitHub:https://github.com/ghausiyaansari77-art
+* LinkedIn: https://www.linkedin.com/in/ghausiya-ansari-1b38a9391/
