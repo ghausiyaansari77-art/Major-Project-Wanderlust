@@ -171,7 +171,7 @@ The application is deployed using:
 
 # 👩‍💻 Author
 
-**Ghausiya Ansari**
+**Ghausiya Ansari**.
 
 * GitHub:https://github.com/ghausiyaansari77-art
 * LinkedIn: https://www.linkedin.com/in/ghausiya-ansari-1b38a9391/
